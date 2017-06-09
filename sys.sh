@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo Projet realis� par Naho MASLENGARTI L3AR 15A087FS 
-
-
+echo Projet realisé Atteib ABDELKADER 11A779fs L3AR
 while :
 do
 
@@ -37,14 +35,14 @@ case $op in
 	   while read user
 	   do 
 	      if [ $line1 == '/home/'$user ] ; then
-		echo " $user a été crée il ya 3jour">3days_user.txt
+		echo " $user a Ã©tÃ© crÃ©e il ya 3jour">3days_user.txt
 	      fi
 
 	  done<user1 
 	done<userx
 	cat 3days_users.txt
  ;;
-	'2') echo "téléchargement  de xampp"
+	'2') echo "tÃ©lÃ©chargement  de xampp"
 	 wget https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.30/xampp-linux-x64-5.6.30-1-installer.run?from_af=true
 	 echo " installation "
 	 ./xampp-linux-x64-5.6.30-1-installer.run
